@@ -1,0 +1,34 @@
+  /*layout*/
+
+  body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Sigmar', sans-serif;
+    background-color: #ed832d;
+  
+  }
+
+
+/* Game title */
+
+ .game-title {
+    color:#fff;
+    margin:auto;
+    margin-top: 0;
+    padding-top: 10px;
+    text-align: center;
+    }
+    
+.game-title, h1 {
+    font-size:80px;
+    }
+ 
+ 
+ /* Text */ 
+
+.container {
+    text-align: center;
+  }
+
