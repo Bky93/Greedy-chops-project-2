@@ -28,8 +28,10 @@
     left: 35%;
     height:20%;
     width:30%;
-    font-size: 30px;
-    color: #00B75C;
+    font-size: 50px;
+    color: #fff;
+    border: #fff 8px solid;
+    background-color: #ed2d77;
   }
 
 
