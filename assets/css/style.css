@@ -176,6 +176,28 @@
     border:#fff 8px solid;
   }
 
+  /* Footer */
+
+  
+  footer {
+    padding-top: 10%;
+    height: 150px;
+  }
+
+  .socials {
+    text-align: center;
+  }
+  
+  .socials li {
+    display: inline;
+  }
+  
+  .socials i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #ffffff;
+  }
  /* Text */ 
 .container {
     text-align: center;
