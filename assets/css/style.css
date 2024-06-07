@@ -25,7 +25,11 @@
     font-size:80px;
     }
  
- 
+.fa-bowl-food {
+    padding-left: 10px;
+    }
+
+    
  /* Text */ 
 
 .container {
