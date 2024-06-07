@@ -125,6 +125,17 @@
     border:#fff 8px solid;
   }
 
+  /* Game main image */
+
+  #gameImage {
+    height: 450px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
 
  /* Text */ 
 .container {
