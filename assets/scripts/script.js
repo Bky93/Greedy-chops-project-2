@@ -2,11 +2,14 @@
 const leftButton = document.querySelector('#left-button');
 const middleButton = document.querySelector('#middle-button');
 const rightButton = document.querySelector('#right-button');
+
+//Get other required elements
 const gameButtons = document.getElementsByClassName('game-btn');
 const resetButton = document.getElementById("reset-button");
 var modal = document.getElementById("myModal");
 var modalBtn = document.getElementById("how-to-play-btn");
 var span = document.getElementsByClassName("close")[0];
+const gameImg = document.getElementById('game-image');
 
 // Local variables
 let catches = 0;
@@ -21,6 +24,43 @@ function generateRoxyDirection() {
     const randomIndex = Math.floor(Math.random() * directions.length);
     return directions[randomIndex];
 }
+
+// Event listeners for control buttons
+leftButton.addEventListener("click", () => {
+    roxyDirection = generateRoxyDirection();
+    if (roxyDirection === 'left') {
+        gameImg.src = "assets/images/roxy-has-chop-roxy-left-charlie-middle.jpg";
+        interceptions++;
+    } else {
+        const randomImage = Math.random() < 0.5 ? 'assets/images/charlie-has-chop-roxy-middle-charlie-left.jpg' : 'assets/images/charlie-has-chop-roxy-right-charlie-left.jpg';
+        gameImg.src = randomImage;
+        catches++;
+    }
+});
+
+middleButton.addEventListener("click", () => {
+    roxyDirection = generateRoxyDirection();
+    if (roxyDirection === 'middle') {
+        gameImg.src = "assets/images/roxy-has-chop-roxy-middle-charlie-middle.jpg";
+        interceptions++;
+    } else {
+        const randomImage = Math.random() < 0.5 ? 'assets/images/charlie-has-chop-roxy-left-charlie-middle.jpg' : 'assets/images/charlie-has-chop-roxy-right-charlie-middle.jpg';
+        gameImg.src = randomImage;
+        catches++;
+    }
+});
+
+rightButton.addEventListener("click", () => {
+    roxyDirection = generateRoxyDirection();
+    if (roxyDirection === 'right') {
+        gameImg.src = "assets/images/roxy-has-chop-roxy-right-charlie-middle.jpg";
+        interceptions++;
+    } else {
+        const randomImage = Math.random() < 0.5 ? 'assets/images/charlie-has-chop-roxy-left-charlie-right.jpg' : 'assets/images/charlie-has-chop-roxy-middle-charlie-right.jpg';
+        gameImg.src = randomImage;
+        catches++;
+    }
+});
 
 // When the user clicks the how to play button the how to play modal opens
 modalBtn.onclick = function () {
