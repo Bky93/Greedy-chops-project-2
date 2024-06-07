@@ -105,8 +105,28 @@
     padding-top: 15px;
     padding-bottom: 10px;
   }
- /* Text */ 
 
+ /* Scores */ 
+
+ .scores {
+    text-align: center;
+    width:500px;
+    height: 75px;
+    font-family: 'Sigmar', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+ }
+
+ h2 {
+    font-size:35px;
+    color: #00b75c;;
+    background-color: #BBA89C;
+    border:#fff 8px solid;
+  }
+
+
+ /* Text */ 
 .container {
     text-align: center;
   }
