@@ -1,6 +1,9 @@
+// Query selectors for control buttons
+const leftButton = document.querySelector('#left-button');
+const middleButton = document.querySelector('#middle-button');
+const rightButton = document.querySelector('#right-button');
+const gameButtons = document.getElementsByClassName('game-btn');
 const resetButton = document.getElementById("reset-button");
-
-//Modal
 var modal = document.getElementById("myModal");
 var modalBtn = document.getElementById("how-to-play-btn");
 var span = document.getElementsByClassName("close")[0];
