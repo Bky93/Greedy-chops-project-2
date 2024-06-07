@@ -103,7 +103,14 @@ function endGame() {
     leftButton.disabled = true;
     middleButton.disabled = true;
     rightButton.disabled = true;
+    document.getElementById("replay-button").style.display = "block";
 }
+
+// Event listener for replay button to reload the page when clicked
+const reloadButton = document.getElementById("replay-button");
+reloadButton.addEventListener("click", () => {
+    location.reload();
+});
 
 // When the user clicks the how to play button the how to play modal opens
 modalBtn.onclick = function () {
