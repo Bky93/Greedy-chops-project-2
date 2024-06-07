@@ -211,8 +211,46 @@
     padding: 5%;
     color: #ffffff;
   }
+
  /* Text */ 
 .container {
     text-align: center;
   }
+
+  /* 404 Page */
+
+  body {
+    background-color: #ed832d;
+  }
+
+  .error-img {
+    height: 350px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+
+  .error-heading {
+    color:#fff;
+    margin:auto;
+    margin-top: 0;
+    padding-top: 10px;
+    text-align: center;
+    font-size:80px;
+    font-family:'Sigmar', sans-serif;
+  }
+
+  .error-code {
+    color:#ed2d77;
+    margin:auto;
+    margin-top: 0;
+    padding-top: 10px;
+    text-align: center;
+    font-size:40px;
+    font-family:'Sigmar', sans-serif;
+  }
+
 
