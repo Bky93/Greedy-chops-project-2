@@ -152,6 +152,30 @@
     padding-top: 10px;
   }
   
+  /* Game buttons */
+
+  .game-choice-section {
+    width: 600px;
+    height:50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Sigmar', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color:#fff;
+    padding-top: 70px;
+  }
+
+  .game-btn {
+    width:180px;
+    height:75px;
+    font-size: 25px;
+    padding-bottom: 10px;
+    align-content: center;
+    border:#fff 8px solid;
+  }
+
  /* Text */ 
 .container {
     text-align: center;
