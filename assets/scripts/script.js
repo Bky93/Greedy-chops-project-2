@@ -12,13 +12,14 @@ var span = document.getElementsByClassName("close")[0];
 const gameImg = document.getElementById('game-image');
 const charlieScoreBoard = document.getElementById('charlie-score');
 const roxyScoreBoard = document.getElementById('roxy-score');
+const scores = document.getElementById('scores');
 const gameText = document.getElementById('game-text');
 
 // Local variables
 let catches = 0;
 const winningScore = 5;
 let interceptions = 0;
-const losingScore = 2;
+const losingScore = 5;
 let roxyDirection;
 
 // Function to generate Roxy's random direction (1 = left, 2 = middle, 3 = right)
@@ -45,6 +46,7 @@ leftButton.addEventListener("click", () => {
         charlieScoreBoard.innerHTML = catches;
         roxyScoreBoard.innerHTML = interceptions;
     }
+    checkGameStatus();
 });
 
 middleButton.addEventListener("click", () => {
@@ -63,6 +65,7 @@ middleButton.addEventListener("click", () => {
         charlieScoreBoard.innerHTML = catches;
         roxyScoreBoard.innerHTML = interceptions;
     }
+    checkGameStatus();
 });
 
 rightButton.addEventListener("click", () => {
@@ -81,9 +84,26 @@ rightButton.addEventListener("click", () => {
         charlieScoreBoard.innerHTML = catches;
         roxyScoreBoard.innerHTML = interceptions;
     }
+    checkGameStatus();
 });
 
+// Function to check game status
+function checkGameStatus() {
+    if (catches === winningScore) {
+        gameText.innerHTML = `YOU WIN,CHARLIE WINS!`;
+        endGame();
+    } else if (interceptions === losingScore) {
+        gameText.innerHTML = `YOU LOSE,ROXY WINS!`;
+        endGame();
+    }
+}
 
+// Function to end the game
+function endGame() {
+    leftButton.disabled = true;
+    middleButton.disabled = true;
+    rightButton.disabled = true;
+}
 
 // When the user clicks the how to play button the how to play modal opens
 modalBtn.onclick = function () {
@@ -106,3 +126,7 @@ window.onclick = function (event) {
 resetButton.addEventListener("click", () => {
     location.reload();
 });
+
+
+
+
