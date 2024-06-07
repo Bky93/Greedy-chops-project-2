@@ -15,6 +15,13 @@ let interceptions = 0;
 const losingScore = 2;
 let roxyDirection;
 
+// Function to generate Roxy's random direction (1 = left, 2 = middle, 3 = right)
+function generateRoxyDirection() {
+    const directions = ['left', 'middle', 'right'];
+    const randomIndex = Math.floor(Math.random() * directions.length);
+    return directions[randomIndex];
+}
+
 // When the user clicks the how to play button the how to play modal opens
 modalBtn.onclick = function () {
     modal.style.display = "block";
