@@ -120,7 +120,7 @@
 
  h2 {
     font-size:35px;
-    color: #00b75c;;
+    color: #00b75c;
     background-color: #BBA89C;
     border:#fff 8px solid;
   }
@@ -137,6 +137,21 @@
     padding-bottom: 10px;
   }
 
+  /* Game question */
+
+  .question-section{
+    width: 600px;
+    height:50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Sigmar', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color:#00B75C;
+    padding-top: 10px;
+  }
+  
  /* Text */ 
 .container {
     text-align: center;
