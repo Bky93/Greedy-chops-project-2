@@ -1,10 +1,11 @@
+/* checked with jshint esversion 2.13.6 */
+
 // Query selectors for control buttons
 const leftButton = document.querySelector('#left-button');
 const middleButton = document.querySelector('#middle-button');
 const rightButton = document.querySelector('#right-button');
 
 //Get other required elements
-const gameButtons = document.getElementsByClassName('game-btn');
 const resetButton = document.getElementById("reset-button");
 var modal = document.getElementById("myModal");
 var modalBtn = document.getElementById("how-to-play-btn");
@@ -12,7 +13,6 @@ var span = document.getElementsByClassName("close")[0];
 const gameImg = document.getElementById('game-image');
 const charlieScoreBoard = document.getElementById('charlie-score');
 const roxyScoreBoard = document.getElementById('roxy-score');
-const scores = document.getElementById('scores');
 const gameText = document.getElementById('game-text');
 
 // Local variables
@@ -42,7 +42,7 @@ leftButton.addEventListener("click", () => {
         const randomImage = Math.random() < 0.5 ? 'assets/images/charlie-has-chop-roxy-middle-charlie-left.jpg' : 'assets/images/charlie-has-chop-roxy-right-charlie-left.jpg';
         gameImg.src = randomImage;
         catches++;
-        gameText.innerHTML=`Charlie caught the chop! Well done!`
+        gameText.innerHTML=`Charlie caught the chop! Well done!`;
         charlieScoreBoard.innerHTML = catches;
         roxyScoreBoard.innerHTML = interceptions;
     }
@@ -61,7 +61,7 @@ middleButton.addEventListener("click", () => {
         const randomImage = Math.random() < 0.5 ? 'assets/images/charlie-has-chop-roxy-left-charlie-middle.jpg' : 'assets/images/charlie-has-chop-roxy-right-charlie-middle.jpg';
         gameImg.src = randomImage;
         catches++;
-        gameText.innerHTML=`Charlie caught the chop! Well done!`
+        gameText.innerHTML=`Charlie caught the chop! Well done!`;
         charlieScoreBoard.innerHTML = catches;
         roxyScoreBoard.innerHTML = interceptions;
     }
@@ -80,7 +80,7 @@ rightButton.addEventListener("click", () => {
         const randomImage = Math.random() < 0.5 ? 'assets/images/charlie-has-chop-roxy-left-charlie-right.jpg' : 'assets/images/charlie-has-chop-roxy-middle-charlie-right.jpg';
         gameImg.src = randomImage;
         catches++;
-        gameText.innerHTML=`Charlie caught the chop! Well done!`
+        gameText.innerHTML=`Charlie caught the chop! Well done!`;
         charlieScoreBoard.innerHTML = catches;
         roxyScoreBoard.innerHTML = interceptions;
     }
@@ -115,24 +115,29 @@ reloadButton.addEventListener("click", () => {
 // When the user clicks the how to play button the how to play modal opens
 modalBtn.onclick = function () {
     modal.style.display = "block";
-}
+};
 
 // When the user clicks on the (x) in the modal it will close the modal
 span.onclick = function () {
     modal.style.display = "none";
-}
+};
 
 // When the user clicks anywhere outside of the modal the modal will close
 window.onclick = function (event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
-}
+};
 
 //Reset button
 resetButton.addEventListener("click", () => {
     location.reload();
 });
+
+
+
+
+
 
 
 
