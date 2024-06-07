@@ -8,6 +8,13 @@ var modal = document.getElementById("myModal");
 var modalBtn = document.getElementById("how-to-play-btn");
 var span = document.getElementsByClassName("close")[0];
 
+// Local variables
+let catches = 0;
+const winningScore = 5;
+let interceptions = 0;
+const losingScore = 2;
+let roxyDirection;
+
 // When the user clicks the how to play button the how to play modal opens
 modalBtn.onclick = function () {
     modal.style.display = "block";
