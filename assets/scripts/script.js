@@ -42,7 +42,7 @@ leftButton.addEventListener("click", () => {
         const randomImage = Math.random() < 0.5 ? 'assets/images/charlie-has-chop-roxy-middle-charlie-left.jpg' : 'assets/images/charlie-has-chop-roxy-right-charlie-left.jpg';
         gameImg.src = randomImage;
         catches++;
-        gameText.innerHTML=`Charlie caught the chop! Well done!`;
+        gameText.innerHTML = `Charlie caught the chop! Well done!`;
         charlieScoreBoard.innerHTML = catches;
         roxyScoreBoard.innerHTML = interceptions;
     }
@@ -61,7 +61,7 @@ middleButton.addEventListener("click", () => {
         const randomImage = Math.random() < 0.5 ? 'assets/images/charlie-has-chop-roxy-left-charlie-middle.jpg' : 'assets/images/charlie-has-chop-roxy-right-charlie-middle.jpg';
         gameImg.src = randomImage;
         catches++;
-        gameText.innerHTML=`Charlie caught the chop! Well done!`;
+        gameText.innerHTML = `Charlie caught the chop! Well done!`;
         charlieScoreBoard.innerHTML = catches;
         roxyScoreBoard.innerHTML = interceptions;
     }
@@ -80,7 +80,7 @@ rightButton.addEventListener("click", () => {
         const randomImage = Math.random() < 0.5 ? 'assets/images/charlie-has-chop-roxy-left-charlie-right.jpg' : 'assets/images/charlie-has-chop-roxy-middle-charlie-right.jpg';
         gameImg.src = randomImage;
         catches++;
-        gameText.innerHTML=`Charlie caught the chop! Well done!`;
+        gameText.innerHTML = `Charlie caught the chop! Well done!`;
         charlieScoreBoard.innerHTML = catches;
         roxyScoreBoard.innerHTML = interceptions;
     }
@@ -133,12 +133,3 @@ window.onclick = function (event) {
 resetButton.addEventListener("click", () => {
     location.reload();
 });
-
-
-
-
-
-
-
-
-
