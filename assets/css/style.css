@@ -189,7 +189,7 @@
   }
 
   .socials {
-    text-align: center;
+    text-align: center
   }
 
   .socials li {
@@ -201,6 +201,10 @@
     margin: 1%;
     padding: 5%;
     color: #ffffff;
+  }
+
+  .socials a {
+    text-decoration: none;
   }
 
   /* Text */
