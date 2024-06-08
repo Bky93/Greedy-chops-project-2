@@ -94,4 +94,12 @@ Reset button when the user hovers over it:
 
 ![Reset button](assets/images/features/reset-button-hover.png)
 
+## How to play modal
+
+The how to play modal has been designed so that it becomes visible when the user clicks on the "how to play" button. The modal has been designed to fit with the ongoing theme of the game and contains an image that fits with the other images in the game to keep the user interested. The instructions have been written so they are clear and concise and straight to the point to ensure the user is confident in how to play them game after reading them. The modal can be closed by either clicking on the x at the top of the modal or clicking outside of the modal.
+
+![How to play modal](assets/images/features/modal.png)
+
+
+
 
