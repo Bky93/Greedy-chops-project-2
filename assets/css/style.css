@@ -246,10 +246,8 @@
   /* Media queries */
   @media screen and (max-width:600px) {
     body {
-      width: 250px;
       margin-left: auto;
       margin-right: auto;
-      display: block;
       align-content: center;
     }
   }
@@ -317,7 +315,6 @@
   @media screen and (max-width:600px) {
     .game-title, h1 {
       font-size: 40px;
-      padding-left:40px;
     }
   }
 
@@ -370,8 +367,15 @@
   }
 
   @media screen and (max-width:600px) {
-    .game-choice-section {
+    .game-choice-section, .scores {
       height: 100px;
       width: 350px;
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    #game-text {
+      height: 100px;
+      width: 325px;
     }
   }
