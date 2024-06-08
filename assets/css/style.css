@@ -257,7 +257,7 @@
 
   @media screen and (max-width:600px) {
     body{
-      width:600px;
+      max-width: 600px;
     }
     
   }
@@ -274,8 +274,8 @@
 
 @media screen and (max-width:600px) {
 .charlie-img {
-  width:400px;
-  height:400px;
+  width:200px;
+  height:200px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 15px;
@@ -310,3 +310,27 @@ footer {
     top:30%;
   }
   }
+
+@media screen and (max-width:600px) {
+.game-title, h1 {
+    font-size:40px;
+    }
+  }
+
+@media screen and (max-width:600px) {
+.how-to-play, .reset-button {
+    font-size: 20px;
+    width:200px;
+    height:50px;
+    border: #fff 5px solid;
+  }
+}
+  
+@media screen and (max-width:600px) {
+.how-to-play:hover, .reset-button:hover {
+    font-size: 20px;
+    width:200px;
+    height:50px;
+    border: #fff 5px solid;
+  }
+   }
