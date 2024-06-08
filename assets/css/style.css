@@ -253,4 +253,24 @@
     font-family:'Sigmar', sans-serif;
   }
 
+  /* Media queries */
+
+  /*media queries*/
+@media screen and (max-width: 600px) {
+  .game-title, h1 {
+    font-size: 40px;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .fa-bowl-food {
+   display:none;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .game-title {
+      padding-left: 5px;
+  }
+  }
 
