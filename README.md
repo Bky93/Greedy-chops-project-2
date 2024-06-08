@@ -73,9 +73,25 @@ The game title was chosen as it seemed an appropriate play on words for the conc
 
 ## How to play button
 
-The "how to play" button has been put right underneath the game title so that the user can easily access information on how to play the game without scrolling the page. The button colour changes when the user hovers over the button, clarifying to the user the action they need to take and to entice the user to click. The design of the button is fitting with the rest of the game theme and helps the page flow easily. When the user click on the how to play button, a modal opens with instructions on how to play the game.
+The "how to play" button has been put right underneath the game title so that the user can easily access information on how to play the game without scrolling the page. The button colour changes when the user hovers over the button, clarifying to the user the action they need to take and to entice the user to click. The design of the button is fitting with the rest of the game theme and helps the page flow easily. When the user clicks on the how to play button, a modal opens with instructions on how to play the game.
 
-![How to play button](assets/images/features/how-to-play.png)
+How to play button:
 
+![How to play button](assets/images/features/how-to-play-button.png)
+
+How to play button when the user hovers over it:
+
+![How to play button](assets/images/features/how-to-play-hover.png)
+
+## Reset button
+The reset button has been put next to the how to play button, as logically it seems that they would be part of the same groups and right underneath the game title so that the user can easily access it when they want to reset the game. The button colour changes when the user hovers over the button, clarifying to the user the action they need to take and to entice the user to click. The design of the button is fitting with the rest of the game theme and helps the page flow easily. When the user clicks on the reset button, the page reloads causing the game and scores to reset.
+
+Reset button:
+
+![Reset button](assets/images/features/reset-button.png)
+
+Reset button when the user hovers over it:
+
+![Reset button](assets/images/features/reset-button-hover.png)
 
 
