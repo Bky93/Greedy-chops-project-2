@@ -298,6 +298,12 @@
     }
   }
 
+  @media screen and (max-width:400px) {
+    .socials {
+      padding:0px;
+    }
+  }
+
   @media screen and (max-width:600px) {
     #replay-button {
       height: 200px;
@@ -358,6 +364,18 @@
     }
   }
 
+  @media screen and (max-width:400px) {
+    #game-image {
+      height: 250px;
+      width: 300px;
+      padding-top: 5px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      align-content: center;
+    }
+  }
+
   @media screen and (max-width:600px) {
     .game-btn {
       width: 100px;
@@ -374,17 +392,26 @@
     }
   }
 
-  @media screen and (max-width:600px) {
-    #game-text {
+  @media screen and (max-width:400px) {
+    .game-choice-section, .scores {
       height: 100px;
-      width: 350px;
-      margin-left: 85px;
+      width: 325px;
     }
   }
 
   @media screen and (max-width:600px) {
     #game-text {
       height: 100px;
-      width: 325px;
+      width: 350px;
+      margin-left: 80px;
     }
   }
+
+  @media screen and (max-width:400px) {
+    #game-text {
+      height: 100px;
+      width: 300px;
+      margin-left: 10px;
+    }
+  }
+
