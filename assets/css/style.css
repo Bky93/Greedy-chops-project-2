@@ -168,7 +168,6 @@
   /* Game buttons */
 
   .game-choice-section {
-    width: 600px;
     height:50px;
     display: block;
     margin-left: auto;
@@ -262,15 +261,19 @@
     
   }
 
- @media screen and (max-width:600px) {
-  .modal-content {
-    padding: 20px;
-    border: 10px solid #00B75C;
-    width: 80%; 
-    height:70%;
-    font-size:20px;
+  @media screen and (max-width:600px) {
+    .modal-content {
+      padding: 20px;
+      border: 10px solid #00B75C;
+      width: 80%; 
+      height:650px;
+    }
   }
-}
+
+  @media screen and (max-width:600px) {
+   .modal-title {
+    font-size: 30px;
+   }}
 
 @media screen and (max-width:600px) {
 .charlie-img {
@@ -278,8 +281,8 @@
   height:200px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 }
   
@@ -334,3 +337,40 @@ footer {
     border: #fff 5px solid;
   }
    }
+
+  @media screen and (max-width: 600px) {
+    h2 {
+        width: 300px;
+        font-size: 25px;
+        margin-left: 90px;
+    }
+}
+
+   @media screen and (max-width:600px) {
+    #game-image {
+      height: 300px;
+      width: 350px;
+      padding-top: 5px;
+      padding-bottom: 10px;
+    }
+   }
+
+   @media screen and (max-width:600px) {
+    .game-btn {
+      width:100px;
+      height:40px;
+      font-size: 15px;
+      border:#fff 2px solid;
+      margin-left: 10px;
+    }
+   }
+
+   @media screen and (max-width:600px) {
+   .game-choice-section {
+    height:50px;
+   }
+  }
+
+
+
+   
