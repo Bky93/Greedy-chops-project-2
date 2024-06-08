@@ -255,6 +255,7 @@
   @media screen and (max-width:600px) {
     .game-options {
       padding:0;
+      margin-right:10px;
     }
   }
 
@@ -370,6 +371,14 @@
     .game-choice-section, .scores {
       height: 100px;
       width: 350px;
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    #game-text {
+      height: 100px;
+      width: 350px;
+      margin-left: 85px;
     }
   }
 
