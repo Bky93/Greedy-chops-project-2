@@ -212,6 +212,26 @@ HTML5, CSS, JavaScript
 
 GitHub backing up all aspects of the project. Bootstrap was used for across the site for responsiveness, style and layout.
 
+# Testing
+
+## User testing
+
+The game has been tested by a few people close to me, all of who have reported back that they are happy with the functionality and design of the game.
+
+## HTML
+
+Some errors were found the first time I input the html into the official W3C Validator:
+
+![HTML Validator 1](assets/images/testing/html-validator-errors-1-to-3.png)
+![HTML Validator 1](assets/images/testing/html-validator-errors-4-to-7.png)
+
+These bugs were fixed and the code was re-input and no errors were found.
+
+
+
+
+
+
 
 
 
