@@ -136,6 +136,14 @@ Game text if the Roxy wins a point:
 
 ![Game text if the Roxy wins a point](assets/images/features/game-text-roxy-scores.png)
 
+## Direction buttons
+
+The game direction buttons allow the user to chose which direction to throw the chop: left, middle, or right. The buttons change colour when the user hovers over them, clarifying to the user the action they need to take and to entice the user to click. The design of the button is fitting with the rest of the game theme and helps the page flow easily.
+
+![Game direction buttons](assets/images/features/game-direction-buttons.png)
+
+
+
 
 
 
