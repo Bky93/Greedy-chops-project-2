@@ -306,6 +306,20 @@ The site was tested on different device screens by changing the screen size in c
         * 	
         ![Image of bug 8](assets/images/testing/bug-9.png)
 
+# Credits
+
+I used stack overflow on a daily basis for guidance and problem solving. https://stackoverflow.com/
+
+I used W3 Schools online resources on a daily basis for guidance, especially for the how to play modal: https://www.w3schools.com/howto/howto_css_modals.asp
+
+I also used various YouTube tutorials to help me understand JavaScript.
+
+I used Bootstrap for certain elements and style.
+
+### Acknowledgments
+
+I would like to acknowledge my mentor Luke for his help and the motivation the mentoring sessions have given me.
+I would also like to acknowlege everyone that posts on slack as it has been an incredibly helpful support along the way.
 
 
 
