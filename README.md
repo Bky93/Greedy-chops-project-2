@@ -245,6 +245,12 @@ Test 2:
 
 ![JSHint test 2 ](assets/images/testing/jshint-test-2.png)
 
+## Performance testing
+
+I tested the performance of the site by using the Lighthouse feature in Chrome's development tools. The test returned a good score and it would be something I would like to get to 100 in future implementations:
+
+![JSHint test 2 ](assets/images/testing/lighthouse-test.png)
+
 
 
 
