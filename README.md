@@ -232,6 +232,19 @@ The site was deployed on GitHub pages.
 
 The game has been tested by a few people close to me, all of who have reported back that they are happy with the functionality and design of the game.
 
+I conducted the following tests of individual game elements and functions:
+
+| Test Description | Expected Result | Actual Result | Pass/Fail |
+| --- | --- | --- | --- |
+| Test 1: Verify that the how to play button makes the how to play modal visible| Modal is visible   | Visible | PASS |
+| Test 2: Verify that the user can close the modal by clicking on the x inside the modal. | Modal is closed | Closed | PASS |
+| Test 3: Verify that the user close the modal by clicking anywhere outside the modal| Modal closes when user clics outside the box | Closed | PASS |
+| Test 4: Verify that the user can press the reset button at any time and the page will reload, causing the game to reset| A reset of the game | Resets | PASS |
+| Test 5: Verify that the user can press the replay button at any time and the game will return to the initial game state| A reset of the game | Resets | PASS |
+| Test 6: Verify that the user can press the directional buttons to choose a direction and have a correct corresponding image appear| All buttons function correctly | Directional buttons ipact game image correctly | PASS |
+| Test 7: Verify that the scoreboard updates after each game turn| Scoreboard should update with current score| Updates | PASS |
+| Test 8: Verify that the game text updates after each game turn signalling to the user if they have gained a point or not| Game text should update after each game turn with appropriate text| Updates | PASS |
+
 ## HTML
 
 Some errors were found the first time I input the html into the official W3C Validator:
