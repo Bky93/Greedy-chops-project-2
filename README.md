@@ -251,6 +251,19 @@ I tested the performance of the site by using the Lighthouse feature in Chrome's
 
 ![JSHint test 2 ](assets/images/testing/lighthouse-test.png)
 
+## Testing responsiveness on different devices
+
+The site was tested on different device screens by changing the screen size in chrome developer tools and using the mobile simulator extension in Google chrome.
+
+![Pixel view](assets/images/testing/google-pixel-6-pro-view.png)
+![Pixel view how to play](assets/images/testing/google-pixel-6-pro-view-how-to-play.png)
+![Ipad Mini view](assets/images/testing/ipad-mini-view.png)
+![Ipad Mini view how to play](assets/images/testing/ipad-mini-view-how-to-play.png)
+![Iphone 12 view](assets/images/testing/iphone-12-pro-view.png)
+![Iphone 12 view how to play](assets/images/testing/iphone-12-pro-view-how-to-play.png)
+![MacBook Air view](assets/images/testing/macbook-air-view.png)
+![MacBook Air view how to play](assets/images/testing/macbook-air-view-how-to-play.png)
+
 
 
 
