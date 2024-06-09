@@ -120,6 +120,27 @@ The game images have been designed to make the game enjoyable and easily underst
 ![Scoreboard](assets/images/roxy-has-chop-roxy-left-charlie-middle.jpg)
 ![Scoreboard](assets/images/roxy-has-chop-roxy-middle-charlie-middle.jpg)
 
+## Game text
+
+The game text sits underneath the main game image, intially as a prompt for the user to click one of the direction buttons to start the game. Once the player has picked a direction and either the user/ Charlie wins a point or Roxy wins a point, the text is updated to reflect this. This has been done with the user in mind to ensure that it is always clear what is happening in the game and will prompt the user to look at the scoreboard.
+
+Game text before the game starts:
+
+![Game text before start](assets/images/features/game-text.png)
+
+Game text if the user/Charlie win a point:
+
+![Game text if the user/Charlie win a point](assets/images/features/game-text-user-scores.png)
+
+Game text if the Roxy wins a point:
+
+![Game text if the Roxy wins a point](assets/images/features/game-text-roxy-scores.png)
+
+
+
+
+
+
 
 
 
