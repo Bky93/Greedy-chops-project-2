@@ -5,7 +5,7 @@
     height: 100vh;
     margin: 0;
     font-family: 'Sigmar', sans-serif;
-    background-color: #ed832d;
+    background-color: #ead4c2;
 
   }
 
@@ -35,7 +35,7 @@
 
   /* Game title */
   .game-title {
-    color: #fff;
+    color: #0e3315;
     margin: auto;
     margin-top: 0;
     padding-top: 10px;
@@ -58,7 +58,7 @@
     font-family: 'Sigmar', sans-serif;
     text-align: center;
     font-size: 15px;
-    color: #fff;
+    color: #0e3315;
     width: 250px;
     height: 70px;
     font-size: 25px;
@@ -80,7 +80,7 @@
 
   /* How to play modal */
   .modal-content {
-    color: #00B75C;
+    color: #0e3315;
     background-color: #fff;
     margin: 10% auto;
     padding: 30px;
@@ -130,7 +130,7 @@
 
   h2 {
     font-size: 35px;
-    color: #00b75c;
+    color: #0e3315;
     background-color: #BBA89C;
     border: #fff 8px solid;
   }
@@ -258,8 +258,8 @@
 
   @media screen and (max-width:600px) {
     .game-options {
-      padding:0;
-      margin-right:10px;
+      padding: 0;
+      margin-right: 10px;
     }
   }
 
@@ -304,7 +304,7 @@
 
   @media screen and (max-width:400px) {
     .socials {
-      padding:0px;
+      padding: 0px;
     }
   }
 
@@ -324,13 +324,17 @@
   }
 
   @media screen and (max-width:600px) {
-    .game-title, h1 {
+
+    .game-title,
+    h1 {
       font-size: 40px;
     }
   }
 
   @media screen and (max-width:600px) {
-    .how-to-play, .reset-button {
+
+    .how-to-play,
+    .reset-button {
       font-size: 20px;
       width: 200px;
       height: 50px;
@@ -340,7 +344,9 @@
   }
 
   @media screen and (max-width:600px) {
-    .how-to-play:hover, .reset-button:hover {
+
+    .how-to-play:hover,
+    .reset-button:hover {
       font-size: 20px;
       width: 200px;
       height: 50px;
@@ -390,14 +396,18 @@
   }
 
   @media screen and (max-width:600px) {
-    .game-choice-section, .scores {
+
+    .game-choice-section,
+    .scores {
       height: 100px;
       width: 350px;
     }
   }
 
   @media screen and (max-width:400px) {
-    .game-choice-section, .scores {
+
+    .game-choice-section,
+    .scores {
       height: 100px;
       width: 325px;
     }
@@ -418,4 +428,3 @@
       margin-left: 10px;
     }
   }
-
