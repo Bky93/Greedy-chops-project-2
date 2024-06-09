@@ -148,6 +148,12 @@ The replay button has been created for the user to be able to easily access a wa
 
 ![Replay button](assets/images/features/replay-button.png)
 
+# Future Implementations
+
+In the future I would like to add some effects to the game such as a confetti effect when the user wins the game, or a meat chop confetti so it looks like it's raining meat chops.
+
+
+
 
 
 
