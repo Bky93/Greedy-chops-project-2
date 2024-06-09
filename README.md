@@ -264,6 +264,48 @@ The site was tested on different device screens by changing the screen size in c
 ![MacBook Air view](assets/images/testing/macbook-air-view.png)
 ![MacBook Air view how to play](assets/images/testing/macbook-air-view-how-to-play.png)
 
+# Bugs
+
+1. * ***Issue Found:*** 
+        * Cannot get rid of extra spacing above h1 heading/game title
+    * ***Solution Used:*** 
+        * Added css atrribute: margin-top: 0;
+		![Image of bug 1](assets/images/testing/bug-1.png)
+1. * ***Issue Found:*** 
+        * Images not appearing on button click, only alt showing
+    * ***Solution Used:***    
+        * corrected image paths that were not complete
+		![Image of bug 2](assets/images/testing/bug-2.png)
+1. * ***Issue Found:*** 
+        * Score to direction buttons not showing in screen together, you have to scroll up to see the score
+    * ***Solution Used***:
+        * reduced padding below game image
+1.    * ***Issue Found:*** 
+        * error 1 in HTML validator "bad value image for attribute type on element link": "link rel="shortcut icon" href="assets/images/favicon/favicon.png type="image"
+		    * ***Solution Used***:
+        * updated type to: type="image/icon"
+1.    * ***Issue Found:*** 
+        * Error 2 in HTML validator "Bad value button for attribute type on element a: Subtype missing"
+          a type="button" class="how-to-play btn btn-lg" aria-label="How to play" id="how-to-play-btn">How to
+		    * ***Solution Used***:
+        * Removed type from anchor element and updated aria-label: a class="how-to-play btn btn-lg" aria-label="How to play button" id="how-to-play-btn">How to play a>
+        a class="reset-button btn btn-lg" aria-label="Reset button" id="reset-button">Reset/a>. This fixed errors 2-5 shown by the HMTL validator.
+1.    * ***Issue Found:*** 
+        * Error 6 in HTML validator "An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images."om line 49, column 7; to line 49, column 63
+        img src="assets/images/charlie.jpg" class="charlie-img"> 
+		    * ***Solution Used***:
+        * Alt attribute added to img	
+1.    * ***Issue Found:*** 
+        * Error 7 in HTML validator "Stray end tag div"
+         /div>
+		    * ***Solution Used***:
+        * Div tag removed	
+1.    * ***Issue Found:*** 
+        * Blue dashes in between social icons in footer
+		    * ***Solution Used***:
+        * 	
+        ![Image of bug 8](assets/images/testing/bug-9.png)
+
 
 
 
