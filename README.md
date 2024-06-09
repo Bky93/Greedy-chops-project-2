@@ -142,6 +142,12 @@ The game direction buttons allow the user to chose which direction to throw the 
 
 ![Game direction buttons](assets/images/features/game-direction-buttons.png)
 
+## Replay button
+
+The replay button has been created for the user to be able to easily access a way of choosing to replay the game, without having to find the reset button. The bright colour has been chosen to separate it from the rest of the game features.
+
+![Replay button](assets/images/features/replay-button.png)
+
 
 
 
