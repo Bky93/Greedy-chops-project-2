@@ -227,6 +227,28 @@ Some errors were found the first time I input the html into the official W3C Val
 
 These bugs were fixed and the code was re-input and no errors were found.
 
+## CSS
+
+The CSS for this site was checked with the W3C CSS validation service and no errors were found:
+
+![CSS Validator ](assets/images/testing/css-validation-pass.png)
+
+## JavaScript
+
+The JavaScript for this site was checked with JSHint, initially some warnings and unused variables were flagged but once the issue was fixed and the code was checked, no errors or warnings were shown:
+
+Test 1:
+
+![JSHint test 1 ](assets/images/testing/jshint-test-1.png)
+
+Test 2:
+
+![JSHint test 2 ](assets/images/testing/jshint-test-2.png)
+
+
+
+
+
 
 
 
