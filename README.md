@@ -106,6 +106,21 @@ The scoreboard has been designed so it visibily fits with the rest of the game b
 
 ![Scoreboard](assets/images/features/score-board.png)
 
+## Game images
+
+The game images have been designed to make the game enjoyable and easily understandable for the user. The graphics used were created on https://www.canva.com and designed to be suitable for all ages. The images have been designed with bright colours to grab the user's attention and keep them engaged in the game.
+
+![Scoreboard](assets/images/charlie-has-chop-roxy-left-charlie-middle.jpg)
+![Scoreboard](assets/images/charlie-has-chop-roxy-left-charlie-right.jpg)
+![Scoreboard](assets/images/charlie-has-chop-roxy-middle-charlie-left.jpg)
+![Scoreboard](assets/images/charlie-has-chop-roxy-middle-charlie-right.jpg)
+![Scoreboard](assets/images/charlie-has-chop-roxy-right-charlie-left.jpg)
+![Scoreboard](assets/images/charlie-has-chop-roxy-right-charlie-middle.jpg)
+![Scoreboard](assets/images/charlie.jpg)
+![Scoreboard](assets/images/roxy-has-chop-roxy-left-charlie-middle.jpg)
+![Scoreboard](assets/images/roxy-has-chop-roxy-middle-charlie-middle.jpg)
+
+
 
 
 
