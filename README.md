@@ -100,6 +100,13 @@ The how to play modal has been designed so that it becomes visible when the user
 
 ![How to play modal](assets/images/features/modal.png)
 
+## Scoreboard
+
+The scoreboard has been designed so it visibily fits with the rest of the game but also stands out enough to be prominent to the user. The score is updated with the current score of the game after each turn and is simple to ensure the score is clearly indicated to the user.
+
+![Scoreboard](assets/images/features/score-board.png)
+
+
 
 
 
