@@ -152,10 +152,65 @@ The replay button has been created for the user to be able to easily access a wa
 
 In the future I would like to add some effects to the game such as a confetti effect when the user wins the game, or a meat chop confetti so it looks like it's raining meat chops.
 
+# Accessibility
 
+I have used alt attributes for all images on the website and aria labels. I have also used back up fonts.
 
+# Technologies used
 
+**GitPod**
 
+Gitpod is the IDE used for editing my site and pushing changes.
+
+**GitHub**
+
+I used github for storage of the site
+
+**Git**
+
+Git was used for version control through the Gitpod terminal.
+
+**Python**
+
+Python was used when opening a port 8000 preview when coding in Gitpod.
+
+**HTML5** 
+
+HTML5 forms the foundation of the website’s structure.
+
+**CSS** 
+
+CSS was used to style the elements of the website.
+
+**Javascript**
+
+Javscript was used to make the game functional.
+
+**Font Awesome** 
+
+I used Font Awesome Icons on my website.
+
+**Google Fonts**
+
+The font used on the website is 'Sigmar' from Google fonts.
+
+**Favicon**
+
+The icon next to the page title is from Favicon.
+
+**Canva**
+Canva was used to design all game images
+
+**Balsamiq**
+Balsamiq was used to create the mobile and desktop wireframes for the site.
+
+## Languages Used
+
+HTML5, CSS, JavaScript
+
+## Libraries and programmes used
+
+GitHub backing up all aspects of the project. Bootstrap was used for across the site for responsiveness, style and layout.
 
 
 
