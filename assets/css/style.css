@@ -250,7 +250,7 @@
   /* Media queries */
   @media screen and (max-width:600px) {
     body {
-      margin-left: auto;
+      margin-left: 15px;
       margin-right: auto;
       align-content: center;
     }
@@ -416,7 +416,8 @@
   @media screen and (max-width:600px) {
     #game-text {
       height: 100px;
-      width: 350px;
+      width: 300px;
+      margin-left:50px;
     }
   }
 
