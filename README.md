@@ -212,6 +212,20 @@ HTML5, CSS, JavaScript
 
 GitHub backing up all aspects of the project. Bootstrap was used for across the site for responsiveness, style and layout.
 
+
+## Deployment
+
+The site was deployed on GitHub pages. 
+
+## Local Deployment
+#### How to Clone:
+
+1.  Log into your account on GitHub
+2.  Go to the repository of this project [Greedy-chops-project-2](https://github.com/Bky93/Greedy-chops-project-2)
+3.  Click on the code button, and copy your preferred clone link.
+4.  Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5.  Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
+
 # Testing
 
 ## User testing
