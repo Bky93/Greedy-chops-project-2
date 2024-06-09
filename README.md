@@ -264,6 +264,12 @@ The site was tested on different device screens by changing the screen size in c
 ![MacBook Air view](assets/images/testing/macbook-air-view.png)
 ![MacBook Air view how to play](assets/images/testing/macbook-air-view-how-to-play.png)
 
+## WAVE contrast checker
+
+The site was tested with the WAVE extension in Google Chrome, intially some contrast errors were picked up with the colour of the text on the page and the background colour. The text colour on the page was made a darker colour and the site was tested again with WAVE and no errors were shown.
+
+![Wave extension test](assets/images/testing/wave-extension-test.png)
+
 # Bugs
 
 1. * ***Issue Found:*** 
